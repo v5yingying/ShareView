@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <SDCycleScrollView.h>
 #import "YRFocusModel.h"
+
 @interface YRFocusTableViewCell : UITableViewCell<SDCycleScrollViewDelegate>
 @property (nonatomic,strong) YYFocusModel *model;
 

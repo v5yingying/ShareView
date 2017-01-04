@@ -14,16 +14,13 @@
 @property (nonatomic,copy) NSString *title;
 @property (nonatomic,copy) NSString *tplName;
 
-
 @end
 
 @interface YYFocusModel : NSObject
 
 @property (nonatomic,strong) NSArray *data;
-
 @property (nonatomic,strong) NSNumber *isLogin;
 @property (nonatomic,copy) NSString *msg;
 @property (nonatomic,strong) NSNumber *status;
-
 
 @end

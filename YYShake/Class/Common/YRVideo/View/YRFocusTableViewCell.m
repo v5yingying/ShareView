@@ -33,7 +33,6 @@
                                 ];
         
         SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, RATE(750), 180) shouldInfiniteLoop:YES imageNamesGroup:imageNames];
-        //        SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, RATE(750), 180) imageURLStringsGroup:imageNames];
         self.cycleScrollView = cycleScrollView;
         cycleScrollView.delegate = self;
         cycleScrollView.pageControlStyle = SDCycleScrollViewPageContolStyleAnimated;
@@ -49,7 +48,6 @@
     return self;
 }
 
-//mineM--
 - (void)setModel:(YYFocusModel *)model{
     
     _model = model;
@@ -64,7 +62,6 @@
     
     self.cycleScrollView.imageURLStringsGroup = imgUrlArr;
     
-    //取出其中一个title  用于展示
     YYFocusDataMode *data = [model.data firstObject];
     self.titleLabel.text = data.title;
     

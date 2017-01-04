@@ -14,7 +14,6 @@
 
 @implementation YYFocusModel
 
-
 + (NSDictionary *)modelContainerPropertyGenericClass {
     return @{@"data" : [YYFocusDataMode class]};
 }
