@@ -14,6 +14,12 @@
 		225F53791E08D265009F9CC6 /* YYShakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 225F53781E08D265009F9CC6 /* YYShakeTests.m */; };
 		225F53841E08D265009F9CC6 /* YYShakeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 225F53831E08D265009F9CC6 /* YYShakeUITests.m */; };
 		225F539C1E08D436009F9CC6 /* YRShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 225F539B1E08D436009F9CC6 /* YRShareView.m */; };
+		2260EB191E1CD45A0051896A /* YRFocusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260EB181E1CD45A0051896A /* YRFocusModel.m */; };
+		2260EB1D1E1CD4B80051896A /* YRViewAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260EB1C1E1CD4B80051896A /* YRViewAPI.m */; };
+		2260EB201E1CD4E00051896A /* YRFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260EB1F1E1CD4E00051896A /* YRFocusViewController.m */; };
+		2260EB231E1CE38D0051896A /* YRFocusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260EB221E1CE38D0051896A /* YRFocusTableViewCell.m */; };
+		2260EB341E1CFED30051896A /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260EB301E1CFED30051896A /* NSObject+YYModel.m */; };
+		2260EB351E1CFED30051896A /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2260EB321E1CFED30051896A /* YYClassInfo.m */; };
 		226A42AF1E0A925400EBE1E8 /* YRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226A42AE1E0A925400EBE1E8 /* YRNavigationController.m */; };
 		226A42B41E0A930A00EBE1E8 /* YRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226A42B31E0A930A00EBE1E8 /* YRRootViewController.m */; };
 		226A42B81E0A93C400EBE1E8 /* YRSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226A42B71E0A93C400EBE1E8 /* YRSettingViewController.m */; };
@@ -59,6 +65,19 @@
 		225F53911E08D29C009F9CC6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		225F539A1E08D436009F9CC6 /* YRShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRShareView.h; sourceTree = "<group>"; };
 		225F539B1E08D436009F9CC6 /* YRShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRShareView.m; sourceTree = "<group>"; };
+		2260EB171E1CD45A0051896A /* YRFocusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRFocusModel.h; sourceTree = "<group>"; };
+		2260EB181E1CD45A0051896A /* YRFocusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRFocusModel.m; sourceTree = "<group>"; };
+		2260EB1B1E1CD4B80051896A /* YRViewAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRViewAPI.h; sourceTree = "<group>"; };
+		2260EB1C1E1CD4B80051896A /* YRViewAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRViewAPI.m; sourceTree = "<group>"; };
+		2260EB1E1E1CD4E00051896A /* YRFocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRFocusViewController.h; sourceTree = "<group>"; };
+		2260EB1F1E1CD4E00051896A /* YRFocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRFocusViewController.m; sourceTree = "<group>"; };
+		2260EB211E1CE38D0051896A /* YRFocusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRFocusTableViewCell.h; sourceTree = "<group>"; };
+		2260EB221E1CE38D0051896A /* YRFocusTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRFocusTableViewCell.m; sourceTree = "<group>"; };
+		2260EB2F1E1CFED30051896A /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		2260EB301E1CFED30051896A /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		2260EB311E1CFED30051896A /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		2260EB321E1CFED30051896A /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		2260EB331E1CFED30051896A /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		226A42AD1E0A925400EBE1E8 /* YRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNavigationController.h; sourceTree = "<group>"; };
 		226A42AE1E0A925400EBE1E8 /* YRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRNavigationController.m; sourceTree = "<group>"; };
 		226A42B21E0A930A00EBE1E8 /* YRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRRootViewController.h; sourceTree = "<group>"; };
@@ -175,6 +194,66 @@
 			path = YYShakeUITests;
 			sourceTree = "<group>";
 		};
+		2260EB131E1CD1B40051896A /* YRFocus */ = {
+			isa = PBXGroup;
+			children = (
+				2260EB1A1E1CD4960051896A /* API */,
+				2260EB141E1CD1B40051896A /* Controller */,
+				2260EB151E1CD1B40051896A /* Model */,
+				2260EB161E1CD1B40051896A /* View */,
+			);
+			name = YRFocus;
+			path = YRVideo;
+			sourceTree = "<group>";
+		};
+		2260EB141E1CD1B40051896A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2260EB1E1E1CD4E00051896A /* YRFocusViewController.h */,
+				2260EB1F1E1CD4E00051896A /* YRFocusViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2260EB151E1CD1B40051896A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2260EB171E1CD45A0051896A /* YRFocusModel.h */,
+				2260EB181E1CD45A0051896A /* YRFocusModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2260EB161E1CD1B40051896A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2260EB211E1CE38D0051896A /* YRFocusTableViewCell.h */,
+				2260EB221E1CE38D0051896A /* YRFocusTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2260EB1A1E1CD4960051896A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2260EB1B1E1CD4B80051896A /* YRViewAPI.h */,
+				2260EB1C1E1CD4B80051896A /* YRViewAPI.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2260EB2E1E1CFED30051896A /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				2260EB2F1E1CFED30051896A /* NSObject+YYModel.h */,
+				2260EB301E1CFED30051896A /* NSObject+YYModel.m */,
+				2260EB311E1CFED30051896A /* YYClassInfo.h */,
+				2260EB321E1CFED30051896A /* YYClassInfo.m */,
+				2260EB331E1CFED30051896A /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
 		226A42A21E0A896700EBE1E8 /* Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +268,8 @@
 		226A42A31E0A896700EBE1E8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2260EB2E1E1CFED30051896A /* YYModel */,
+				2260EB131E1CD1B40051896A /* YRFocus */,
 				226A42AB1E0A921700EBE1E8 /* YRNavigationController */,
 				226A42AC1E0A921700EBE1E8 /* YRTabBarController */,
 			);
@@ -457,12 +538,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F55EEE1E1B9A65005E56D1 /* YRTabBarController.m in Sources */,
+				2260EB201E1CD4E00051896A /* YRFocusViewController.m in Sources */,
 				226A42B41E0A930A00EBE1E8 /* YRRootViewController.m in Sources */,
+				2260EB341E1CFED30051896A /* NSObject+YYModel.m in Sources */,
 				226A42AF1E0A925400EBE1E8 /* YRNavigationController.m in Sources */,
 				225F539C1E08D436009F9CC6 /* YRShareView.m in Sources */,
+				2260EB191E1CD45A0051896A /* YRFocusModel.m in Sources */,
 				22F55EEB1E1B9A2D005E56D1 /* AppDelegate.m in Sources */,
 				226A42B81E0A93C400EBE1E8 /* YRSettingViewController.m in Sources */,
+				2260EB351E1CFED30051896A /* YYClassInfo.m in Sources */,
 				225F53601E08D265009F9CC6 /* main.m in Sources */,
+				2260EB231E1CE38D0051896A /* YRFocusTableViewCell.m in Sources */,
+				2260EB1D1E1CD4B80051896A /* YRViewAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

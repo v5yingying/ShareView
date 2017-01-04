@@ -6,4 +6,6 @@ target 'YYShake' do
 pod 'Masonry'
 pod 'CYLTabBarController'
 pod 'YTKNetwork', '~> 2.0.1'
+pod 'SDCycleScrollView','~> 1.64'
+
 end

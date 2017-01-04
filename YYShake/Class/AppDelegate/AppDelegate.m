@@ -26,7 +26,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     YTKNetworkConfig *config = [YTKNetworkConfig sharedConfig];
-    config.baseUrl = @"http://yuantiku.com";
+//    config.baseUrl = @"http://yuantiku.com";
+    config.baseUrl = @"https://application.gq.com.cn/mobileadmin/self525/api40/";
     [self setupViewControllers];
 
     return YES;
